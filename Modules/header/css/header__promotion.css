@@ -1,0 +1,33 @@
+.header__promotion {
+  display: flex;
+  grid-column: 1;
+  grid-row:2;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__promotion__name {
+  font-size: 3.75em;
+  margin: 10px 0 0 20px;
+}
+
+.header__promotion__link {
+  font-size: 3em;
+  margin: 0px 0 0 20px;
+}
+
+.header__promotion__video-link {
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 1.5em;
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 3px 10px;  
+  background-color: #373737;
+  color: white;
+  width: 60%;
+}
+
+.header__promotion-image {
+  align-self: center;
+}

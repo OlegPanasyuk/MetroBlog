@@ -1,0 +1,15 @@
+@import url('/Common/css/normalize.css');
+@import url('/Modules/header/css/header.css');
+@import url('/Modules/main/css/main.css');
+@import url('/Modules/footer/css/footer.css');
+@import url('/Modules/aside/css/aside.css');
+@import url('/Modules/news/css/news.css');
+@import url('/Common/css/fonts.css');
+
+body {
+  display: grid;
+  font-family: 'Segeo';
+  grid-template-columns: 1fr 686px 338px 1fr;
+  grid-template-rows: 120px 530px 1fr 90px;
+  color: #696161;
+}

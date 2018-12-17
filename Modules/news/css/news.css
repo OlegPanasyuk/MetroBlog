@@ -1,0 +1,56 @@
+.news { 
+  color: #848484;
+}
+
+.news_main {
+  grid-column: 1 / span 3;
+}
+
+.news_main  h3 {
+  margin-top: 0px;
+}
+
+.news__image {
+  float: left;
+  width: 308px;
+  height: 242px;
+  background-image: url('/Modules/main/img/fon.png');
+  background-size: cover;
+  margin-right: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.news__text {
+  text-align: justify;
+}
+
+.news__header {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.news__arrows {
+  display: flex;
+  font-size: 1.5em;
+  color: white;
+  justify-content: flex-end;
+}
+
+.news__arrows span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #696161;
+  margin: 0px;
+  padding: 2px;
+  
+}
+
+.news__arrows span:hover {
+  background-color: #373737;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}

@@ -1,0 +1,19 @@
+@import url('header__logo.css');
+@import url('header__nav.css');
+@import url('header__promotion.css');
+
+.header {
+  display : grid;
+  grid-template-columns: 338px 686px;
+  grid-template-rows: 120px 530px;
+  grid-gap: 0;
+  grid-column: 2/span 2;
+  grid-row: 1 / span 2;
+}
+
+.header__separator {
+  border-bottom: 1px solid #ccc;
+  grid-column: 1/span 4;
+  grid-row: 1; 
+}
+

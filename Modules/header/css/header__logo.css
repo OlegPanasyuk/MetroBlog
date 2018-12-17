@@ -1,0 +1,23 @@
+.header__logo {
+  display: flex;
+  grid-column: 1;
+  grid-row: 1;
+  align-items: center;
+}
+.header__logo h1{
+  font-size: 3.25em;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+
+
+.header__circle {
+  position: relative;
+  display: inline-block;
+  top: 0.05em;
+  width: 0.575em;
+  height: 0.575em;
+  border-radius: 50%;
+  background-color: forestgreen;
+}
